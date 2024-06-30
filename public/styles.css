@@ -1,0 +1,75 @@
+/* public/styles.css */
+
+/* Globális stílusok */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Konténer stílusok */
+  .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Űrlap stílusok */
+  form {
+    display: grid;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Kanban tábla stílusok */
+  .kanban-board {
+    display: flex;
+    gap: 20px;
+    background-color: #ff69b4; /* Kanban tábla háttere pink */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Oszlop stílusok */
+  .column {
+    flex: 1;
+    background-color: #ffb6c1; /* Oszlop háttérszíne világosabb pink */
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Feladat lista stílusok */
+  .task-list {
+    min-height: 100px;
+  }
+  
+  /* Feladat cetli stílusok */
+  .task {
+    background-color: #ffc0cb; /* Feladat cetli háttérszíne világosabb pink */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  /* Ikonok stílusai */
+  .task .icons {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+  
+  .task .icons i {
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  
+  

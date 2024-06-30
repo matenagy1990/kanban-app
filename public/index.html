@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kanban App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Kanban Board</h1>
+    <form id="taskForm">
+      <input type="text" id="titleInput" placeholder="Task title" required>
+      <textarea id="descriptionInput" placeholder="Task description"></textarea>
+      <button type="submit">Add Task</button>
+    </form>
+    <div class="kanban-board">
+      <div class="column" id="todo">
+        <h2>Todo</h2>
+        <div class="task-list" id="todoTasks"></div>
+      </div>
+      <div class="column" id="in-progress">
+        <h2>In Progress</h2>
+        <div class="task-list" id="inProgressTasks"></div>
+      </div>
+      <div class="column" id="done">
+        <h2>Done</h2>
+        <div class="task-list" id="doneTasks"></div>
+      </div>
+    </div>
+  </div>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
+
